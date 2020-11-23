@@ -1,6 +1,10 @@
 body {
-  background: linear-gradient(30deg, #1d1d1d, #000000, #000000, #2a2b2c);
+  background: linear-gradient(30deg, #000000, #2a2b2c);
   color: #ffffff;
+}
+
+body.legal {
+  background: linear-gradient(30deg, #1d1d1d, #000000, #2a2b2c);
 }
 
 .legalnotice {
