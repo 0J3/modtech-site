@@ -46,17 +46,28 @@
               src="/icon.png"
               id="appicon"
               style="
-                vertical-align: middle;
                 margin-bottom: 10px;
                 margin-right: 10px;
+                top: 0;
+                height: 100%;
+                vertical-align: top;
               "
-              width="60"
           /></span>
-          <span id="header-large" style="font-weight: 300; font-size: 1.3rem"
+          <!-- width="60" -->
+          <span
+            id="header-large"
+            style="
+              font-weight: 300;
+              font-size: 1.3rem;
+              top: 0;
+              height: 100%;
+              vertical-align: top;
+            "
+            class="valign-top"
             >Modtech</span
           >
         </a>
-        <ul class="right hide-on-med-and-down">
+        <!-- <ul class="right hide-on-med-and-down">
           <li><a href="#"></a></li>
         </ul>
 
@@ -65,7 +76,7 @@
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
-        >
+        > -->
       </div>
     </nav>
     <div class="section no-pad-bot" id="index-banner">
@@ -79,7 +90,7 @@
           <a
             href="https://discord.com/oauth2/authorize?client_id=709002088499249212&scope=bot&permissions=-1"
             id="download-button"
-            class="btn-large waves-effect waves-light orange"
+            class="btn-large waves-effect waves-light orange pulse"
             t
             target="_blank"
             >Invite Bot</a
