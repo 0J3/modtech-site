@@ -19,7 +19,7 @@
   }
 }
 :root {
-  --TitleHeight: 60px;
+  --TitleHeight: 40px;
   --TitlePadding: 8px;
   --TitleTextInternalValue: calc(var(--TitleHeight) / 64);
 }
