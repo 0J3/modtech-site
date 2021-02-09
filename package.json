@@ -1,0 +1,16 @@
+{
+	"devDependencies": {
+		"sass": "^1.32.6",
+		"typescript": "^4.1.4"
+	},
+	"name": "modtech-site",
+	"version": "2.0.0-alpha1",
+	"description": "Modtech's site but v2",
+	"repository": "https://github.com/0J3/modtech-site.git",
+	"author": "0J3 <0J3@wafflepowered.com>",
+	"license": "AGPL-3.0-or-later",
+	"scripts": {
+		"build": "sass scss:css && tsc .",
+		"watch-scss": "sass scss:css --watch"
+	}
+}

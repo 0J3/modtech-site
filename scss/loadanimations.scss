@@ -1,0 +1,13 @@
+#titlebar {
+	animation-name: titleIn;
+	animation-duration: 1s;
+}
+
+@keyframes titleIn {
+	from {
+		top: calc(-1 * calc(var(--TitleHeight) + var(--TitlePadding)));
+	}
+	to {
+		top: 0;
+	}
+}
