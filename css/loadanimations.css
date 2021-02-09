@@ -1,6 +1,10 @@
-#titlebar {
+.mainPage #titlebar {
   animation-name: titleIn;
   animation-duration: 1s;
+}
+.mainPage #titlebar .titlebaricon {
+  animation-name: titlebariconIn;
+  animation-duration: 3s;
 }
 
 @keyframes titleIn {
@@ -9,6 +13,17 @@
   }
   to {
     top: 0;
+  }
+}
+@keyframes titlebariconIn {
+  0% {
+    left: 100vw;
+  }
+  33% {
+    left: 100vw;
+  }
+  100% {
+    left: 0;
   }
 }
 

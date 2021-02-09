@@ -3,11 +3,15 @@
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("/font/Uni Sans Heavy.otf") format("opentype");
+  src: url("/font/DSCFont.woff2") format("woff2");
 }
-#titlebar {
+.mainPage #titlebar {
   animation-name: titleIn;
   animation-duration: 1s;
+}
+.mainPage #titlebar .titlebaricon {
+  animation-name: titlebariconIn;
+  animation-duration: 3s;
 }
 
 @keyframes titleIn {
@@ -16,6 +20,17 @@
   }
   to {
     top: 0;
+  }
+}
+@keyframes titlebariconIn {
+  0% {
+    left: 100vw;
+  }
+  33% {
+    left: 100vw;
+  }
+  100% {
+    left: 0;
   }
 }
 :root {
@@ -88,6 +103,11 @@ body {
   display: inline-block;
   content: "Modtech";
   font-family: "uni", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.titlebaricon {
+  text-decoration: none;
+  color: #7289da;
 }
 
 #content {
