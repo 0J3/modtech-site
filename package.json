@@ -11,6 +11,6 @@
 	"license": "AGPL-3.0-or-later",
 	"scripts": {
 		"build": "sass scss:css && tsc .",
-		"watch-scss": "sass scss:css --watch"
+		"watch-scss": "sass scss:css --watch --style compressed"
 	}
 }
