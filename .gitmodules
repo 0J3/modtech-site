@@ -1,0 +1,3 @@
+[submodule "ts/lib/wavejs"]
+	path = ts/lib/wavejs
+	url = https://github.com/QiShaoXuan/wavejs.git
