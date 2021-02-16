@@ -1,9 +1,1 @@
-@font-face {
-  font-family: "Uni";
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url("/font/DSCFont.woff2") format("woff2");
-}
-
-/*# sourceMappingURL=fonts.css.map */
+@font-face{font-family:"Uni";font-style:normal;font-weight:300;font-display:swap;src:url("/font/DSCFont.woff2") format("woff2")}/*# sourceMappingURL=fonts.css.map */

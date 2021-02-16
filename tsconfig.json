@@ -1,6 +1,8 @@
 {
 	"compilerOptions": {
 		"rootDir": "./ts",
-		"outDir": "./js"
+		"outDir": "./js",
+		"target": "ES6",
+		"lib": ["ES2015", "ES2017", "ES2020", "dom"]
 	}
 }
